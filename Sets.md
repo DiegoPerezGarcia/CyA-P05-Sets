@@ -3,26 +3,22 @@
 ### Objetivos
 Los objetivos de esta práctica son: 
 
+* Practicar conocimientos de programación Orientada a Objetos en C++
+* Practicar operaciones de entrada/salida (E/S) en ficheros de texto
 * Ser capaz de desarrollar, compilar y ejecutar programas escritos en C++ en el entorno de trabajo IaaS
 * Profundizar en los conocimientos de Visual Studio Code (VSC)
-* Practicar conocimientos de programación Orientada a Objetos en C++
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
 
-* El alumnado ha de acreditar que es capaz de editar ficheros remotos en la VM de la asignautra usando VSC
-* Ha de acreditar que es capaz de conectarse a la VM de la asignatura y ejecutar comandos
-básicos de Linux para al menos: copiar, borrar y editar ficheros, crear directorios y compilar su programa.
 * El comportamiento del programa debe ajustarse a lo solicitado en este documento.
-* Capacidad del programador(a) de introducir cambios en el programa desarrollado.
+* El programa ha de ser fiel al paradigma de programación orientada a objetos (OOP).
+* Ha de acreditarse capacidad para introducir cambios en el programa desarrollado.
+* El alumnado ha de acreditar que es capaz de editar ficheros remotos en la VM de la asignautra usando VSC
 * Modularidad: el programa ha de escribirse de modo que las diferentes funcionalidades
 que se precisen sean encapsuladas en funciones y/o métodos cuya extensión textual se mantenga acotada.
 * El código ha de estar escrito de acuerdo al estándar de la [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
-En particular ha de atender a los siguientes aspectos:
-    1. Todos los ficheros tendrán comentarios de cabecera.
-    2. El código estará correctamente indentado de acuerdo a la guía.
-    3. Todos los identificadores del código se nominarán de modo que sean significativos y de acuerdo a lo especificado en la guía.
 * El programa desarrollado deberá compilarse utilizando la herramienta `make` y un fichero `Makefile`.
 
 Si el alumnado tiene dudas respecto a cualquiera de estos aspectos, debiera acudir al
@@ -32,14 +28,18 @@ a resolver dichas dudas.
 También el profesorado de la asignatura intervendrá en las discusiones que pudieran suscitarse, si fuera necesario.
     
 ### Introducción
+En Matemáticas, un [conjunto](https://en.wikipedia.org/wiki/Set_(mathematics))
+finito es una colección finita de ciertos valores, sin ningún orden concreto ni valores repetidos. 
+Cuando se trabaja con conjuntos finitos de elementos resulta natural realizar operaciones básicas como son la unión, la intersección o la diferencia de conjuntos.
 C++ no tiene un tipo básico para representar conjuntos.
 En otras prácticas de esta asignatura se utilizarán profusamente conjuntos para diversos desarrollos.
-La forma natural de utilzar conjuntos en C++ es a través del [contenedor `set`](http://www.cplusplus.com/reference/set/set/) 
+La forma natural de utilizar conjuntos en C++ es a través del [contenedor `set`](http://www.cplusplus.com/reference/set/set/) 
 de la Standard Template Library (STL). 
 No obstante, en esta práctica se propone el diseño de una clase propia que permita operaciones básicas con conjuntos.
 
 ### Ejercicio práctico
-Se definirá una clase `Set` con los atributos y métodos convenientes para representar conjuntos.
+Se definirá una clase `Set` con los atributos y métodos convenientes para representar conjuntos de números
+naturales (enteros positivos).
 
 Para representar internamente los conjuntos se pueden utilizar diversas ideas, no obstante se propone aquí
 una que puede dar buenos resultados.
@@ -89,8 +89,8 @@ Se han de definir métodos que permitan las siguientes operaciones:
 
 Se sobrecargarán convenientemente los operadores de inserción y extracción en flujos
 de forma que sea posible leer y escribir un conjunto.
-A efectos de entrada/salida el conjunto `A = {1, 2, 3` se representará como `{1, 2, 3`, es decir,
-listando sus elementos separados por comas y englobados entre llaves.
+A efectos de entrada/salida el conjunto `A = {1, 2, 3}` se representará como `{1, 2, 3}`, es decir,
+listando sus elementos separados por comas e insertados entre llaves.
 
 Para comprobar el correcto funcionamiento de la práctica se implementará una calculadora
 de conjuntos (programa `set_calculator.cc`):
