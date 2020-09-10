@@ -41,6 +41,8 @@ No obstante, en esta práctica se propone el diseño de una clase propia que per
 Se definirá una clase `Set` con los atributos y métodos convenientes para representar conjuntos de números
 naturales (enteros positivos).
 
+En el programa a desarrollar no ha de usar en modo alguno la [STL](http://www.cplusplus.com/reference/stl/).
+
 Para representar internamente los conjuntos se pueden utilizar diversas ideas, no obstante se propone aquí
 una que puede dar buenos resultados.
 
