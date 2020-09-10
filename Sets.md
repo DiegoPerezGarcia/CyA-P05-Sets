@@ -46,7 +46,7 @@ En el programa a desarrollar no ha de usar en modo alguno la [STL](http://www.cp
 Para representar internamente los conjuntos se pueden utilizar diversas ideas, no obstante se propone aquí
 una que puede dar buenos resultados.
 
-Para representar un conjunto de enteros se utilizarán los bits de un valor de tipo `long`.
+Para representar un conjunto de enteros se utilizarán los bits de un valor de tipo [`long`](https://en.wikipedia.org/wiki/Integer_(computer_science)#Long_integer).
 Si el bit i-ésimo está a 1 ello indicará que el número `i` pertenece al conjunto. 
 Si ese bit está a 0, esto indica que el número `i` no pertenece al conjunto.
 De este modo se puede representar conjuntos con tantos números naturales  como bits tiene
