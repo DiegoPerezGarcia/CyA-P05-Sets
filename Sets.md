@@ -50,7 +50,7 @@ Para representar un conjunto de enteros se utilizarán los bits de un valor de t
 Si el bit i-ésimo está a 1 ello indicará que el número `i` pertenece al conjunto. 
 Si ese bit está a 0, esto indica que el número `i` no pertenece al conjunto.
 De este modo se puede representar conjuntos con tantos números naturales  como bits tiene
-un valor de tipo `long` (esto es, `sizeof(long)`).
+un valor de tipo `long` (esto es, [`sizeof(long)`](https://www.tutorialspoint.com/cplusplus/cpp_sizeof_operator.htm)).
 Si se pretende representar conjuntos con un número mayor de elementos, basta usar más de un
 valor de tipo `long`.
 Con un vector de `M` valores de tipo `long` se pueden representar conjuntos con un máximo de `8 * M * sizeof(long)` elementos.
