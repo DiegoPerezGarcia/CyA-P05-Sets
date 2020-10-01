@@ -1,25 +1,30 @@
-# Práctica 02. La clase Set
+# Práctica 04. La clase Set
 
 ### Objetivos
 Los objetivos de esta práctica son: 
 
+* Ejecutar comandos de Linux en la máquina virtual (VM) de la asignatura
+* Ser capaz de desarrollar, editar de forma remota usando VSC, compilar y ejecutar programas escritos en C++ en su VM
+* Que el alumnado codifique sus programas siguiendo lo estipulado en la Guía de Estilo de código de Google
+* Que el alumno sea capaz de formatear su códgo en VSC siguiendo la guia de Estilo de Google
+* Que el alumnado utilice la utilidad make y ficheros Makefile en sus proyectos
+* Poner en práctica los conocimientos de programación estructurada
 * Practicar conocimientos de programación Orientada a Objetos en C++
 * Practicar operaciones de entrada/salida (E/S) en ficheros de texto
-* Ser capaz de desarrollar, compilar y ejecutar programas escritos en C++ en el entorno de trabajo IaaS
-* Profundizar en los conocimientos de Visual Studio Code (VSC)
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
 
-* El comportamiento del programa debe ajustarse a lo solicitado en este documento.
-* El programa ha de ser fiel al paradigma de programación orientada a objetos (OOP).
-* Ha de acreditarse capacidad para introducir cambios en el programa desarrollado.
-* El alumnado ha de acreditar que es capaz de editar ficheros remotos en la VM de la asignautra usando VSC
-* Modularidad: el programa ha de escribirse de modo que las diferentes funcionalidades
-que se precisen sean encapsuladas en funciones y/o métodos cuya extensión textual se mantenga acotada.
+* El alumnado ha de acreditar conocimientos para trabajar con la shell de GNU/Linux en su VM
 * El código ha de estar escrito de acuerdo al estándar de la [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
-* El programa desarrollado deberá compilarse utilizando la herramienta `make` y un fichero `Makefile`.
+* El alumnado ha de acreditar que es capaz de formatear su código usando VSC de acuerdo al estándar anterior
+* El alumnado ha de acreditar capacidad para editar ficheros remotos en la VM de la asignautra usando VSC
+* El programa desarrollado deberá compilarse utilizando la herramienta `make` y un fichero `Makefile`
+* El comportamiento del programa debe ajustarse a lo solicitado en este documento.
+* Ha de acreditarse capacidad para introducir cambios en el programa desarrollado.
+* Modularidad: el programa ha de escribirse de modo que las diferentes funcionalidades que se precisen sean encapsuladas en funciones y/o métodos cuya extensión textual se mantenga acotada.
+* El programa ha de ser fiel al paradigma de programación orientada a objetos (OOPP4).
 
 Si el alumnado tiene dudas respecto a cualquiera de estos aspectos, debiera acudir al
 foro de discusiones de la asignatura para plantearlas allı́. 
