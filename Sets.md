@@ -111,7 +111,7 @@ Así pues el programa se invocará como:
 
 ### Formateo automático del código
 El código fuente escrito por un programador debiera ser conforme a las reglas de estilo de la organización para la que trabaja.
-Ello facilita la legibilidad de los programas así como el trabajo en equipo: cualquier programador de la organización puede entender fácilmente el código escrito por cualquier desarrollador puesto que todos siguen unas reglas comunes a la hora de escribir sus códigos.
+Ello facilita la legibilidad de los programas así como el trabajo en equipo: cualquier programador de la organización puede entender fácilmente el código escrito por otros desarrolladores puesto que todos siguen unas reglas comunes a la hora de escribir sus programas.
 En el caso particular de esta asignatura, las reglas de estilo que se ha propuesto seguir son las de 
 la [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
 Estas reglas de estilo no son únicas. 
@@ -122,19 +122,22 @@ Algunas otras relevantes para el caso de C++ son:
 * [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)
 * [WebKit’s style guide](https://webkit.org/code-style-guidelines/)
 * [Microsoft’s style guide](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?view=vs-2017)
-Y cada organización que no tiene las suyas propias suele adoptara alguna de éstas.
+
+Y cada organización que no define las suyas propias suele adoptara alguna de éstas.
 
 Hay fundamentalmente dos formas de garantizar que el código sigue uno de estos estándares.
-La primera es adoptar la costumbre de escribir el código siempre atendiendo a las recomendaciones de estilo de la guía.
-Esta nos parece la más adecuada puesto que las diferencias entre unas guías de estilo u otras no atañen a los aspectos más relevantes.
-La otra opción es utilizar una herramienta externa que revise el código que se escribe y lo reformatee de acuerdo a las reglas de estilo.
+La primera es adoptar la costumbre de escribir el código siempre atendiendo a las recomendaciones de estilo de la guía elegida.
+Esta es posiblemente la más adecuada porque dota al programador de buenos hábitos a la hora de escribir su código y porque, salvo cuestiones 
+opinables, las diferencias entre unas guías de estilo u otras no atañen a los aspectos más relevantes.
+Se podría establecer un paralelismo con lo que ocurre al escribir en tu idioma natural: se puede utilizar un corrector ortográfico pero es muy conveniente que las personas sean capaces de escribir sin faltas de ortografía.
+La otra opción es utilizar una herramienta que analice el código y lo reescriba de acuerdo a unas reglas de estilo.
 Los [linters](https://en.wikipedia.org/wiki/Lint_(software)) son herramientas que cumplen con este cometido.
 [clang-tidy](https://clang.llvm.org/extra/clang-tidy/), o [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint)
-son dos linters adecuados para usar con C++.
+son dos linters adecuados para usar con C++ y su función va más allá de corregir los errores de estilo porque pueden ser útiles para detectar y corregir errores comunes a la hora de programar.
 
-La [extensión para código C++](https://code.visualstudio.com/docs/languages/cpp) de Microsoft 
-[Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) (VSC)
-suministra soporte para dar formato al códifo fuente usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
+La [extensión para código C++](https://code.visualstudio.com/docs/languages/cpp) de Microsoft  Visual Studio Code  (VSC)
+suministra [soporte para dar formato al códifo fuente]((https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting)) 
+usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
 Una vez configurado el estilo que se desea para los proyectos, las combinaciones de teclas
 `Ctrl+Shift+I` `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
 Si en el espacio de trabajo se encuentra un fichero con nombre `.clang-format` el formato se aplica de acuerdo a las especificaciones de ese fichero.
