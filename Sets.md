@@ -123,7 +123,7 @@ Algunas otras relevantes para el caso de C++ son:
 * [WebKit’s style guide](https://webkit.org/code-style-guidelines/)
 * [Microsoft’s style guide](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?view=vs-2017)
 
-Y cada organización que no define las suyas propias suele adoptara alguna de éstas.
+Y cada organización que no define las suyas propias suele adoptar alguna de éstas.
 
 Hay fundamentalmente dos formas de garantizar que el código sigue uno de estos estándares.
 La primera es adoptar la costumbre de escribir el código siempre atendiendo a las recomendaciones de estilo de la guía elegida.
