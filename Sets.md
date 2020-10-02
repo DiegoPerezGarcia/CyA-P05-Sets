@@ -139,10 +139,10 @@ La [extensión para código C++](https://code.visualstudio.com/docs/languages/cp
 suministra [soporte para dar formato al códifo fuente](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) 
 usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
 Una vez configurado el estilo que se desea para los proyectos, las combinaciones de teclas
-`Ctrl+Shift+I` `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
+`Ctrl+Shift+I` y `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
 Si en el espacio de trabajo se encuentra un fichero con nombre `.clang-format` el formato se aplica de acuerdo a las especificaciones de ese fichero.
 En [este tutorial](https://leimao.github.io/blog/Clang-Format-Quick-Tutorial/) 
-se explica cómo utilizar la herramienta [clang-format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) para crear un fichero `.clang-format` 
+se explica cómo utilizar la herramienta `[clang-format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)` para crear un fichero `.clang-format` 
 que siga alguno de los estilos soportados por la herramienta, uno de los cuales (`style=google`) es el que se usa en la asignatura.
 En [este artículo](https://medium.com/@zamhuang/vscode-how-to-customize-c-s-coding-style-in-vscode-ad16d87e93bf)
 se explica el significado de algunos de los ajustes definidos por el estilo.
