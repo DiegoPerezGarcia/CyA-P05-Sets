@@ -132,16 +132,17 @@ Los [linters](https://en.wikipedia.org/wiki/Lint_(software)) son herramientas qu
 [clang-tidy](https://clang.llvm.org/extra/clang-tidy/), o [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint)
 son dos linters adecuados para usar con C++.
 
-La extensión para código C++ de
-Microsoft [Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) (VSC)
-soporta el formato del código fuente usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
+La [extensión para código C++](https://code.visualstudio.com/docs/languages/cpp) de Microsoft 
+[Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) (VSC)
+suministra soporte para dar formato al códifo fuente usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
 Una vez configurado el estilo que se desea para los proyectos, las combinaciones de teclas
 `Ctrl+Shift+I` `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
-Si en el espacio de trabajo se encuentra un fichero con nombre`.clang-format` el formato se aplica de acuerdo a las especificaciones de ese fichero.
-
-
-
-
+Si en el espacio de trabajo se encuentra un fichero con nombre `.clang-format` el formato se aplica de acuerdo a las especificaciones de ese fichero.
+En [este tutorial](https://leimao.github.io/blog/Clang-Format-Quick-Tutorial/) 
+se explica cómo utilizar la herramienta [clang-format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) para crear un fichero `.clang-format` 
+que siga alguno de los estilos soportados por la herramienta, uno de los cuales (`style=google`) es el que se usa en la asignatura.
+En [este artículo](https://medium.com/@zamhuang/vscode-how-to-customize-c-s-coding-style-in-vscode-ad16d87e93bf)
+se explica el significado de algunos de los ajustes definidos por el estilo.
 
 ### Referencias
 * [Standard Template Library](http://www.cplusplus.com/reference/stl/)
@@ -150,4 +151,6 @@ Si en el espacio de trabajo se encuentra un fichero con nombre`.clang-format` el
 * [C++ Tutor](http://pythontutor.com/cpp.html#mode=display) Visualización online de la ejecución de código C++
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) Guía de estilo de código 
 * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) 
+* [Format C/C++ Code Using Clang-Format](https://leimao.github.io/blog/Clang-Format-Quick-Tutorial/)
+* [How to customize C++’s coding style in VSCode](https://medium.com/@zamhuang/vscode-how-to-customize-c-s-coding-style-in-vscode-ad16d87e93bf)
  
