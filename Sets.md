@@ -136,7 +136,7 @@ Los [linters](https://en.wikipedia.org/wiki/Lint_(software)) son herramientas qu
 son dos linters adecuados para usar con C++ y su función va más allá de corregir los errores de estilo porque pueden ser útiles para detectar y corregir errores comunes a la hora de programar.
 
 La [extensión para código C++](https://code.visualstudio.com/docs/languages/cpp) de Microsoft  Visual Studio Code  (VSC)
-suministra [soporte para dar formato al códifo fuente]((https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting)) 
+suministra [soporte para dar formato al códifo fuente](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) 
 usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
 Una vez configurado el estilo que se desea para los proyectos, las combinaciones de teclas
 `Ctrl+Shift+I` `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
