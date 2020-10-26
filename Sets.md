@@ -109,51 +109,9 @@ Así pues el programa se invocará como:
 
 `./set_calculator infile.txt outfile.txt`
 
-### Formateo automático del código
-El código fuente escrito por un programador debiera ser conforme a las reglas de estilo de la organización para la que trabaja.
-Ello facilita la legibilidad de los programas así como el trabajo en equipo: cualquier programador de la organización puede entender fácilmente el código escrito por otros desarrolladores puesto que todos siguen unas reglas comunes a la hora de escribir sus programas.
-En el caso particular de esta asignatura, las reglas de estilo que se ha propuesto seguir son las de 
-la [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
-Estas reglas de estilo no son únicas. 
-Algunas otras relevantes para el caso de C++ son:
-* [GeoSoft's C++ Programming Style Guidelines](https://geosoft.no/development/cppstyle.html)
-* [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)
-* [Chromium’s style guide](https://www.chromium.org/developers/coding-style)
-* [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)
-* [WebKit’s style guide](https://webkit.org/code-style-guidelines/)
-* [Microsoft’s style guide](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?view=vs-2017)
-
-Y cada organización que no define las suyas propias suele adoptar alguna de éstas.
-
-Hay fundamentalmente dos formas de garantizar que el código sigue uno de estos estándares.
-La primera es adoptar la costumbre de escribir el código siempre atendiendo a las recomendaciones de estilo de la guía elegida.
-Esta es posiblemente la más adecuada porque dota al programador de buenos hábitos a la hora de escribir su código y porque, salvo cuestiones 
-opinables, las diferencias entre unas guías de estilo u otras no atañen a los aspectos más relevantes.
-Se podría establecer un paralelismo con lo que ocurre al escribir en tu idioma natural: se puede utilizar un corrector ortográfico pero es muy conveniente que las personas sean capaces de escribir sin faltas de ortografía.
-La otra opción es utilizar una herramienta que analice el código y lo reescriba de acuerdo a unas reglas de estilo.
-Los [linters](https://en.wikipedia.org/wiki/Lint_(software)) son herramientas que cumplen con este cometido.
-[clang-tidy](https://clang.llvm.org/extra/clang-tidy/), o [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint)
-son dos linters adecuados para usar con C++ y su función va más allá de corregir los errores de estilo porque pueden ser útiles para detectar y corregir errores comunes a la hora de programar.
-
-La [extensión para código C++](https://code.visualstudio.com/docs/languages/cpp) de Microsoft  Visual Studio Code  (VSC)
-suministra [soporte para dar formato al códifo fuente](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting) 
-usando el [formato clang](https://clang.llvm.org/docs/ClangFormat.html) incluído con la extensión.
-Una vez configurado el estilo que se desea para los proyectos, las combinaciones de teclas
-`Ctrl+Shift+I` y `Ctrl+K Ctrl+F` permiten formatear un fichero completo o parte del mismo respectivamente.
-Si en el espacio de trabajo se encuentra un fichero con nombre `.clang-format` el formato se aplica de acuerdo a las especificaciones de ese fichero.
-En [este tutorial](https://leimao.github.io/blog/Clang-Format-Quick-Tutorial/) 
-se explica cómo utilizar la herramienta [`clang-format`](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) para crear un fichero `.clang-format` 
-que siga alguno de los estilos soportados por la herramienta, uno de los cuales (`style=google`) es el que se usa en la asignatura.
-En [este artículo](https://medium.com/@zamhuang/vscode-how-to-customize-c-s-coding-style-in-vscode-ad16d87e93bf)
-se explica el significado de algunos de los ajustes definidos por el estilo.
-
 ### Referencias
 * [Standard Template Library](http://www.cplusplus.com/reference/stl/)
 * [Fundamental types](https://en.cppreference.com/w/cpp/language/types)
 * [Bitwise Operators in C and C++](https://www.cprogramming.com/tutorial/bitwise_operators.html)
 * [C++ Tutor](http://pythontutor.com/cpp.html#mode=display) Visualización online de la ejecución de código C++
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) Guía de estilo de código 
-* [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) 
-* [Format C/C++ Code Using Clang-Format](https://leimao.github.io/blog/Clang-Format-Quick-Tutorial/)
-* [How to customize C++’s coding style in VSCode](https://medium.com/@zamhuang/vscode-how-to-customize-c-s-coding-style-in-vscode-ad16d87e93bf)
- 
