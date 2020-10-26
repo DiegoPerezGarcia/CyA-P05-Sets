@@ -16,15 +16,14 @@ Los objetivos de esta práctica son:
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
 
+* El alumnado ha de acreditar capacidad para editar ficheros remotos en la VM de la asignautra usando VSC
 * El alumnado ha de acreditar conocimientos para trabajar con la shell de GNU/Linux en su VM
 * El código ha de estar escrito de acuerdo al estándar de la [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
-* El alumnado ha de acreditar que es capaz de formatear su código usando VSC de acuerdo al estándar anterior
-* El alumnado ha de acreditar capacidad para editar ficheros remotos en la VM de la asignautra usando VSC
 * El programa desarrollado deberá compilarse utilizando la herramienta `make` y un fichero `Makefile`
 * El comportamiento del programa debe ajustarse a lo solicitado en este documento.
 * Ha de acreditarse capacidad para introducir cambios en el programa desarrollado.
 * Modularidad: el programa ha de escribirse de modo que las diferentes funcionalidades que se precisen sean encapsuladas en funciones y/o métodos cuya extensión textual se mantenga acotada.
-* El programa ha de ser fiel al paradigma de programación orientada a objetos (OOPP4).
+* El programa ha de ser fiel al paradigma de programación orientada a objetos.
 
 Si el alumnado tiene dudas respecto a cualquiera de estos aspectos, debiera acudir al
 foro de discusiones de la asignatura para plantearlas allı́. 
