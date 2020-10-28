@@ -1,4 +1,4 @@
-# Práctica 04. La clase Set
+# Práctica 05. La clase Set
 
 ### Objetivos
 Los objetivos de esta práctica son: 
